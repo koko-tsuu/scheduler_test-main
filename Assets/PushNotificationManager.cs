@@ -25,7 +25,7 @@ public class PushNotificationManager : MonoBehaviour
             Id = "default_channel",
             Name = "Default Channel",
             Importance = Importance.Default,
-            Description = "oh mah gah"
+            Description = "Notification Channel"
         };
 
         AndroidNotificationCenter.RegisterNotificationChannel(channel);
